@@ -1,0 +1,11 @@
+    deleteProduct(id:number) {
+        this.http
+                .delete(`${this.apiEndpoint}${id}`) // Delete product from the server
+                .subscribe(response => {
+                    this.products.forEach( // Remove it from local cache
+                            (p, index) => {
+                                if (p.id === id) { this.products.splice(index, 1); }
+                            }
+                        );
+            }, error => console.log('Could not delete product.'));
+    }

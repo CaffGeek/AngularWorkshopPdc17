@@ -1,0 +1,6 @@
+Visual Studio Code extensions:
+
+- Angular v4 TypeScript Snippets (John Papa)
+- Auto Import (steoates)
+- VSCode Simpler Icons with angular
+- Angular Language Service

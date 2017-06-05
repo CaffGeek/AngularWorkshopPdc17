@@ -1,0 +1,24 @@
+interface ICar {
+	id?: number;
+	brand: string;
+	model: string;
+}
+
+class Car implements ICar {
+	constructor(
+		public id:number,
+		public brand:string,
+		public model:string	)
+		{ }
+		
+	ShowCar() {
+		return  `this is car: 
+				${this.brand}
+				${this.model}
+		 		`;	
+	}
+}
+
+var vehicle = new Car(12, "Toyota", "Matrix")
+var result = vehicle.ShowCar();
+document.body.innerHTML = result;

@@ -1,0 +1,7 @@
+function ShowCar(car) {
+	return "This is car: " + car;
+}
+
+var vehicle = "Toyota Matrix";
+var result = ShowCar(vehicle);
+document.body.innerHTML = result;
