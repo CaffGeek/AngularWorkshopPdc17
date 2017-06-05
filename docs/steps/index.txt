@@ -1,6 +1,0 @@
-Step1: Components
-Step2: Services
-Step3: HTTP and RxJS
-Step4: Products Module
-Step5: Routing
-Step6: Lazy loading
